@@ -1,0 +1,6 @@
+private async void guna2ToggleSwitch2_CheckedChanged(object sender, EventArgs e)
+{
+    status.Text = "Sniper Scope applying";
+    await Form1.ChangeMem("60 40 cd cc 8c 3f 8f c2 f5 3c cd cc cc 3d 07 00 00 00 00 00 00 00 00 00 00 00 00 00 f0 41 00 00 48 42 00 00 00 3f 33 33 13 40 00 00 b0 3f 00 00 80 3f 01", "60 40 cd cc 8c 3f 8f c2 f5 3c cd cc cc 3d 07 00 00 00 00 00 ff ff 00 00 00 00 00 00 f0 41 00 00 48 42 00 00 00 3f 33 33 13 40 00 00 b0 3f 00 00 80 3f 01", "1");
+    status.Text = "Sniper Scope Done";
+}
