@@ -22,7 +22,7 @@ if (guna2ToggleSwitch1.Checked)
             byte[] valueBytes = MemLib.AhReadMeFucker((num + 0x60).ToString("X"), 4);
             MemLib.WriteMemory((num + 0x5c).ToString("X"), "int", BitConverter.ToInt32(valueBytes, 0).ToString());
         }
-        label3.Text = "Aimbot Done";
+        label3.Text = "Aimbot Done fuck you";
         label3.ForeColor = Color.AliceBlue;
     }
 }
